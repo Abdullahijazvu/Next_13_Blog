@@ -24,6 +24,7 @@ export default function Home() {
         <Link href={`/posts/${id}`}>{title}</Link>
         <br/>
         <p>{date}</p>
+        <br/>
         </>
       ))}</div>
       <Link href="/posts">Posts</Link>
